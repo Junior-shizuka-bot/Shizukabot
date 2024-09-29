@@ -34,7 +34,7 @@ module.exports = {
 			const categories = {};
 			let msg = "";
 
-			msg += `\n✿ /)    /)                  (＼  (＼ \n✿(｡•ㅅ•｡)〝₎₎            (⁠ㆁ⁠ω⁠ㆁ)\n╭∪─∪─────∪─∪╮\n├─–✿🌸𝐒𝐇𝐈𝐙𝐔𝐊𝐀🌸✿─┤\n╰━━━━━━━━━━━╯\n╭━━━━━━━━━━━•❖\n│𝐋𝐢𝐬𝐭𝐞 𝐝𝐞𝐬 𝐜𝐦𝐝𝐬\n╰━━━━━━━━━━━╮`; // replace with your name 
+			msg += `\n✿ /)    /)                  (＼  (＼ \n✿(｡•ㅅ•｡)〝₎₎            (⁠ㆁ⁠ω⁠ㆁ)\n╭∪─∪─────∪─∪╮\n├─–✿✦𝑮𝑶𝑱𝑶✦✿─┤\n╰━━━━━━━━━━━╯\n╭━━━━━━━━━━━•❖\n│𝐋𝐢𝐬𝐭𝐞 𝐝𝐞𝐬 𝐜𝐦𝐝𝐬\n╰━━━━━━━━━━━╮`; // replace with your name 
 
 			for (const [name, value] of commands) {
 				if (value.config.role > 1 && role < value.config.role) continue;
@@ -65,29 +65,29 @@ module.exports = {
 			msg += `│https://\n│www.facebook.com/\n│simon.junior27?mibextid=\n│ZbWKwL\n╰━━━━━━━━━━━•❖`; // its not decoy so change it if you want 
 
 			const helpListImages = [
-				'https://i.ibb.co/z4k944v/image.jpg',
+				'https://i.ibb.co/rcgDqkC/image.jpg',
 
-				'https://i.ibb.co/H7mDDM1/image.jpg',
+				'https://i.ibb.co/5xwM0P3/image.jpg',
 
-				'https://i.ibb.co/Fm5vV9N/image.jpg',
+				'https://i.ibb.co/TRKBwfh/image.jpg',
 
-				'https://i.ibb.co/hsx3348/image.jpg',
+				'https://i.ibb.co/SxcWCP8/image.jpg',
 
-				'https://i.ibb.co/JtGy5hr/image.jpg',
+				'https://i.ibb.co/rcgDqkC/image.jpg',
 													'https://i.imgur.com/OSWG34k.jpeg',
 
-				'https://i.ibb.co/d6mykBt/image.jpg',
+				'https://i.ibb.co/rcgDqkC/image.jpg',
 
 				'https://i.ibb.co/h96HGGf/image.jpg',
 
-				'https://i.ibb.co/znL25JZ/image.jpg',
+				'https://i.ibb.co/SxcWCP8/image.jpg',
 
 				'https://i.ibb.co/3mzJGXs/image.jpg',
 
-				'https://i.ibb.co/s6fZFrN/image.jpg',                                    
-				'https://i.ibb.co/n0dx76X/image.jpg', 
+				'https://i.ibb.co/TRKBwfh/image.jpg',                                    
+				'https://i.ibb.co/rcgDqkC/image.jpg', 
 
-				'https://i.ibb.co/4gSP2gY/image.jpg',
+				'https://i.ibb.co/rcgDqkC/image.jpg',
 			];
 
 			const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
