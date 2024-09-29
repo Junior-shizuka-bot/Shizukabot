@@ -54,7 +54,7 @@ module.exports = {
  }
  const userName = ret[event.senderID].name;
  const { response, messageID } = await getAIResponse(input, userName, event.senderID, event.messageID);
- api.sendMessage(`S̲H̲I̲Z̲U̲K̲A̲..B̲O̲T̲..A̲S̲S̲I̲S̲T̲A̲N̲T̲\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━`, event.threadID, messageID);
+ api.sendMessage(`𖣘✦𝑮𝑶𝑱𝑶✦𖣘\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━`, event.threadID, messageID);
  });
  },
  onChat: async function ({ api, event, message }) {
@@ -68,7 +68,7 @@ module.exports = {
  }
  const userName = ret[event.senderID].name;
  const { response, messageID } = await getAIResponse(input, userName, event.senderID, message.messageID);
- message.reply(`S̲H̲I̲Z̲U̲K̲A̲..B̲O̲T̲..A̲S̲S̲I̲S̲T̲A̲N̲T̲ \n━━━━━━━━━━━━━━━━\n${userName} , ${response} ━━━━━━━━━━━━━━━━\n `, messageID);
+ message.reply(`𖣘✦𝑮𝑶𝑱𝑶✦𖣘 \n━━━━━━━━━━━━━━━━\n${userName} , ${response} ━━━━━━━━━━━━━━━━\n `, messageID);
 api.setMessageReaction("💬", event.messageID, () => {}, true);
 
  });
